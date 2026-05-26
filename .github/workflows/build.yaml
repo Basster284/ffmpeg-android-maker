@@ -18,4 +18,4 @@ jobs:
         uses: android-actions/setup-android@v4
 
       - name: run sh
-        run: "./ffmpeg-android-maker"
+        run: "./ffmpeg-android-maker.sh"
