@@ -18,7 +18,7 @@ jobs:
         uses: android-actions/setup-android@v4
 
       - name: install nasm
-        run: "apt update && apt install -y nasm
+        run: "apt update && apt install -y nasm"
 
       - name: run sh
         run: "./ffmpeg-android-maker.sh"
