@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '17'
-          distribution: 'termium'
+          distribution: 'temurin'
 
       - name: setup android sdk
         uses: android-actions/setup-android@v4
