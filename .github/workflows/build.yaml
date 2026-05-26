@@ -18,7 +18,7 @@ jobs:
         uses: android-actions/setup-android@v4
 
       - name: set env correctly
-        run: "export ANDROID_SDK_HOME=$ANDROID_HOME
+        run: "export ANDROID_SDK_HOME=$ANDROID_HOME"
 
       - name: run sh
         run: "./ffmpeg-android-maker.sh"
